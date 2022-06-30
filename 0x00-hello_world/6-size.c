@@ -1,5 +1,14 @@
 #include <stdio.h>
-int main(void) 
+
+/**
+ * Main - Entry point
+ *
+ * Description: Floats
+ *
+ * Returns: Always 0 (Success)
+ */
+
+int main(void)
 {
 	printf("\nSize of a char: %d byte(s)", sizeof(char));
 	printf("\nSize of an int: %d byte(s)", sizeof(int));
