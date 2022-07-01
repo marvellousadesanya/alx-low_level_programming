@@ -3,10 +3,10 @@
 /**
  * main - Entry point
  *
- * description: 'Loops for printing out alphabet
+ * Description: 'Loops for printing out alphabet
  * in lower case'
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -22,5 +22,6 @@ int main(void)
 		ch++;
 	}
 	putchar('\n');
+
 	return (0);
 }
