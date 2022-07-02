@@ -1,26 +1,24 @@
 #include <stdio.h>
 
 /**
- * main -Main entry
+ * main - Prints all possible combinations of single-digit numbers.
  *
- * Description: 'Separating iterations by comma'
- *
- * Return: Always 0 (SUCCESS)
+ * Return: Always 0.
+ *    
  */
-
 int main(void)
 {
-	int n;
+	int num;
 
-	n = 0;
-
-	while (n < 10)
+	for (num = 0; num <= 9; num++)
 	{
-		putchar(n + '0');
-		n++;
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
 		putchar(',');
 		putchar(' ');
-	}
+															}
+
 	putchar('\n');
 
 	return (0);
