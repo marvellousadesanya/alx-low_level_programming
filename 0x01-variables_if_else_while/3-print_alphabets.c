@@ -1,9 +1,17 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: 'Loops for the alphabet statement'
+ *
+ * Return: Always (0) SUCCESS
+ */
+
 int main(void)
 {
-	char ch;
-	char up;
+	int ch;
+	int up;
 
 	ch = 'a';
 	up = 'A';
@@ -19,7 +27,6 @@ int main(void)
 		putchar(up);
 		up++;
 	}
-	
 	putchar('\n');
 
 	return (0);
