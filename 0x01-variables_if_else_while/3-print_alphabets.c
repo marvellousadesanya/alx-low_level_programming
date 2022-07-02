@@ -15,7 +15,7 @@ int main(void)
 
 	ch = 'a';
 	up = 'A';
-	
+
 	while (ch <= 'z')
 	{
 		putchar(ch);
