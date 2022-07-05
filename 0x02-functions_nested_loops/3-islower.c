@@ -6,12 +6,11 @@
  * Return 0 or 1
  */
 
-int _islower(int c)
+if (int _islower(int c))
 {
 	return (1);
-	else
-	{
-		return (0);
-	}
+} else
+{
+	return (0);
 }
 
