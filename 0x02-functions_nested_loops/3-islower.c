@@ -6,7 +6,7 @@
  * Return 0 or 1
  */
 
-if (int _islower(int c))
+if (_islower(int c))
 {
 	return (1);
 } else
