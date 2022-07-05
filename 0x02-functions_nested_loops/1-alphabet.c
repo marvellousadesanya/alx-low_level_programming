@@ -6,14 +6,15 @@
  * Return: Always 0.
  */
 
-int main(void) 
+void print_alphabet(void) 
 {
 	char l;
 	l = 'a';
 	while (l < 'z') 
 	{
 		_putchar(l);
+		l++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
