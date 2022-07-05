@@ -10,15 +10,15 @@ int islower(int c);
 
 int _islower(int c)
 {
-	int c;
+	char c;
 
 	if (islower(int c))
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
 
