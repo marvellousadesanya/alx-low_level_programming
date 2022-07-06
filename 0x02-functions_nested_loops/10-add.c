@@ -6,10 +6,9 @@
  * Return: Return the summed up int
  */
 
-int add(int c, int d)
+int add(int, int)
 {
-	int c, d, r;
+	int c, d;
 
-	r = c + d;
-	return (r);
+	return (c + d);
 }
