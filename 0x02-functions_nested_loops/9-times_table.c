@@ -10,3 +10,4 @@ void times_table(void)
 		_putchar((num % 10) + '0');
 		num += 9;
 	}
+}
