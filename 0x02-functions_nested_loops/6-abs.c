@@ -10,8 +10,8 @@
  * Return: Always 0 (SUCCESS)
  */
 
-int _abs(h)
+int _abs(int h)
 {
-	putchar(h);
+	_putchar(h);
 	return (0);
 }
