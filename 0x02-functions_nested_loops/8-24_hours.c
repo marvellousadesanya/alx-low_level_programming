@@ -7,7 +7,7 @@ void jack_bauer(void)
 	min = 0;
 	while (min <= 59)
 	{
-		_putchar(min + '0');
+		_putchar(min);
 		min++;
 	}
 }
