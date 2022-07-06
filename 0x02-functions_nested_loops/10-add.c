@@ -2,7 +2,8 @@
 
 /**
  * add - Sums up 2 nubers
- *
+ * @c: check for c
+ * @d:: check for d
  * Return: Return the summed up int
  */
 
