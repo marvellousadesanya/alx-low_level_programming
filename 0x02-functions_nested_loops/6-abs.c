@@ -12,6 +12,8 @@
 
 int _abs(int h)
 {
-	_putchar(h);
-	return (0);
+	if (h <= 0 && h >=0)
+	{
+		return (0);
+	}
 }
