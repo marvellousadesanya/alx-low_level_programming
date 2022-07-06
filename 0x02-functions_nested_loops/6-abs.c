@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * abs - Entry point
+ * _abs - Entry point
  *
  * Description: 'Compute absolute value'
  *
@@ -10,7 +10,7 @@
  * Return: Always 0 (SUCCESS)
  */
 
-int _abs(int h)
+int _abs(h)
 {
 	putchar(h);
 	return (0);
