@@ -13,7 +13,5 @@
 int _abs(int h)
 {
 	if (h <= 0 && h >=0)
-	{
 		return (0);
-	}
 }
