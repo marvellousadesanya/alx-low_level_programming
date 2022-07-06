@@ -9,4 +9,5 @@ void jack_bauer(void)
 	{
 		_putchar(min + '0');
 		min++;
+	}
 }
