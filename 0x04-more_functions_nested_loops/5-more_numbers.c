@@ -19,7 +19,9 @@ void more_numbers(void)
 			{
 				_putchar('1');
 				_putchar((m % 10) + '0');
+				m++;
 			}
+			_putchar(m + '0');
 			m++;
 		}
 		_putchar('\n');
