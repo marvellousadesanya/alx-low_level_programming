@@ -2,6 +2,7 @@
 
 /**
  * print_line - Print n lines or new line
+ * @n: Checks for n
  */
 
 void print_line(int n)
