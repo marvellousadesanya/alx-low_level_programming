@@ -1,9 +1,17 @@
 #include "main.h"
 
-int _ispper(int c)
+/**
+ * _isupper - Checks if character is uppercasei
+ * @c: Checks for character c
+ * Return: 0 or 1
+ */
+
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
-		_putchar(c);
+		return (1);
 	}
+	else
+		return (0);
 }
