@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_diagonal - prints diagonal line
+ *
+ * @n: Checks for n
+ *
+ */
+
 void print_diagonal(int n)
 {
 	int i, j;
