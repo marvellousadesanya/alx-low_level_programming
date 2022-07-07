@@ -17,10 +17,10 @@ void more_numbers(void)
 		{
 			if (m >= 10)
 			{
-				m++;
 				_putchar('1');
 				_putchar((m % 10) + '0');
 			}
+			m++;
 		}
 		_putchar('\n');
 		n++;
