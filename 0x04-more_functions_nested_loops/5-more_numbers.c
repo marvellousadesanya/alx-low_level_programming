@@ -15,7 +15,7 @@ void more_numbers(void)
 	while (n <= 9)
 	{
 		m = 0;
-		while (m <= 3)
+		while (m <= 14)
 		{
 			_putchar(m);
 			m++;
