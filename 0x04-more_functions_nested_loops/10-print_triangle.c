@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_triangle - prints a triangle
+ * @size: checks for int size
+ */
+
 void print_triangle(int size)
 {
 	int l,  b, x;
