@@ -22,7 +22,7 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else if ((m % 5 == 0) && (m % 3 == 0))
+		else if (m % 15 == 0)
 		{
 			printf("FizzBuzz ");
 		}
