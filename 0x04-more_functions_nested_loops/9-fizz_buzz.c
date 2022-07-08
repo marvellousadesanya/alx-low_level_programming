@@ -16,20 +16,22 @@ int main(void)
 	{
 		if (m % 15 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (m % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if (m % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", m);
+			printf("%d", m);
 		}
+		if (m < 100)
+			print(" ");
 
 	}
 	return (0);
