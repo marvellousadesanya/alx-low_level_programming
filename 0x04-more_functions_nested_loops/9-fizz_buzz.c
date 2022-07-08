@@ -31,9 +31,10 @@ int main(void)
 			printf("%d", m);
 		}
 		if (m < 100)
-			print(" ");
+			printf(" ");
 
 	}
+	printf('\n');
 	return (0);
 }
 
