@@ -3,23 +3,21 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	char reversedStr;
+	char tmpStr; /** Used as a backup variable to prevent 
+			directly assigning variables to one another*/
 	int j;
-	int k = 0;
 
-	while (s[i] != 0)
+	while (s[i] != '\0')
 	{
+		/** returns length of string */
 		i++;
 	}
-	j = i - 1;
-	while (j >= 0)
+	for (j = 0; j < i / 2; j++) /** For swapping indexes with their opposite numbers */
 	{
-		j--;
-		reversedStr[k++] = s[j];
+		tmpStr = s[j];
+		s[j] = s[l - 1 -i];
+		s[j - 1 - i] = tmpStr;
 	}
-	reversedStr[k] = '\0';
-
-	_putchar(s);
-	_putchar('\n');
+	_putchar(s[j]);
 }
 	
