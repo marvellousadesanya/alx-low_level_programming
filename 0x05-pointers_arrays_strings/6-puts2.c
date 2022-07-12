@@ -6,6 +6,7 @@ void puts2(char *str)
 
 	while(str[i % 2 == 0])
 	{
+		i++;
 		_putchar(str[i]);
 	}
 }
