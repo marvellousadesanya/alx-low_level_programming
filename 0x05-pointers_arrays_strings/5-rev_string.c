@@ -8,7 +8,7 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	char tmpStr; /** Used as a backup variable to prevent 
+	char tmpStr; /** Used as a backup variable to prevent
 			*directly assigning variables to one another
 			*/
 	int j;
@@ -18,8 +18,8 @@ void rev_string(char *s)
 		/** returns length of string */
 		i++;
 	}
-	for (j = 0; j < i / 2; j++) /** For swapping indexes 
-				      *with their opposite numbers 
+	for (j = 0; j < i / 2; j++) /** For swapping indexes
+				      *with their opposite numbers
 				      */
 	{
 		tmpStr = s[j];
