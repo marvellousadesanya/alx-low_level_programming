@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * puts2 - Prints only even numbered indexes
+ * @str: Checks for char str
+ */
+
 void puts2(char *str)
 {
 	int i = 0;
