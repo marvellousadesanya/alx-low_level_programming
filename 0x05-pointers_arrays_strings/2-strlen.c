@@ -12,7 +12,8 @@ int _strlen(char *s)
 
 	for (i = 0; s[i] != '\0'; ++i)
 	{
-		_putchar(i);
+		_putchar(i + '0');
 	}
+	_putchar(i + '0');
 	return (0);
 }
