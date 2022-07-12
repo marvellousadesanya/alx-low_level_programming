@@ -18,6 +18,5 @@ void rev_string(char *s)
 		s[j] = s[i - 1 - j];
 		s[i - 1 - j] = tmpStr;
 	}
-	_putchar(s[j]);
 }
 	
