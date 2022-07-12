@@ -6,9 +6,9 @@ void puts_half(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; (j >= i - 1 / 2); j++)
+		for (j >= (i - 1) / 2; str[i] != '\0'; j++)
 		{
-			_putchar(str[i]);
+			_putchar(str[j]);
 		}
 	}
 }
