@@ -8,9 +8,9 @@
 
 void print_rev(char *s)
 {
-	for (; *str == 0; str--)
+	for (; *s == 0; s--)
 	{
-		_putchar(*str);
+		_putchar(*s);
 	}
-	_putchar(*str);
+	_putchar(*s);
 }
