@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _strlen - Checks for length
+ * @s: Checks for character s
+ * Return: Always 0
+ */
+
 int _strlen(char *s)
 {
 	int i;
@@ -8,4 +14,5 @@ int _strlen(char *s)
 	{
 		_putchar(i + '0');
 	}
+	return (0);
 }_
