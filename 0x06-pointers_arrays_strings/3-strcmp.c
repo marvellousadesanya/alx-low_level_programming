@@ -17,12 +17,13 @@ int _strcmp(char *s1, char *s2)
 		{
 			j = 0;
 		}
+		else if (s1[i] < s2[i])
+		{
+			j = 15;
+		}
 		else
 		{
-			j = (*s1 - *s2); /**
-					  * Returns 15. This is the difference
-					  * between the bytes in memory
-					  */
+			j = -15;
 		}
 	}
 		return (j);
