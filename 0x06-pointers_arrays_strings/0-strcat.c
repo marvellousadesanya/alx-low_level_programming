@@ -29,7 +29,7 @@ char *_strcat(char *dest, char *src)
 		dest[i] = src[j];
 	}
 	*dest += '\0'; /**
-			 Appends null 
+			 * Appends null
 			 * value to end of string
 			 */
 
