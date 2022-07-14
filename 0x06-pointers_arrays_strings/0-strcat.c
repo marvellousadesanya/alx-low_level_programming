@@ -11,18 +11,24 @@ char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	/** This block only counts number
+	 * of characters in dest string
+	 */
+	for (i = 0; dest[i] != 0; i++)
 	{
-		; /** Not 100% sure why I left this here.
-		    * Might later remove
-		    */
+		;
 	}
 
-	for (j = 0; src[j] != '\0'; j++)
+	/** This block then appends the
+	 * characters of src to dest
+	 */
+	for (j = 0; src[j] != '\0'; j++, i++)
 	{
-		*dest += src[j];
+		dest[i] = src[j];
 	}
-	*dest += '\0';
+	*dest += '\0'; /** Appends null 
+			 * value to end of string
+			 */
 
 	return (dest);
 }
