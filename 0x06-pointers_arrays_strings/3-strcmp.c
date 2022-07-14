@@ -4,7 +4,7 @@
  * _strcmp - Compares two strings
  * @s1: First string
  * @s2: Second string
- * return: Returns either 0 or the BYTE difference between both strings
+ * Return: Returns either 0 or the BYTE difference between both strings
  */
 
 int _strcmp(char *s1, char *s2)
