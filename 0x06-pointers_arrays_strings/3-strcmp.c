@@ -4,27 +4,22 @@
  * _strcmp - Compares two strings
  * @s1: First string
  * @s2: Second string
- * Return: Returns either 0 or the BYTE difference between both strings
+ * Return: Returns either 0 or the BYTE difference
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, j;
+	int i;
 
-	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
+	for (i = 0; s1[i] == s2[i] && s1[i] != '\0'; i++)
+		continue;
+
+	if (s1[i] == s2[i])
 	{
-		if (s1[i] == s2[i])
-		{
-			j = 0;
-		}
-		else if (s1[i] < s2[i])
-		{
-			j = 15;
-		}
-		else
-		{
-			j = -15;
-		}
+		return (0);
 	}
-		return (j);
+	else
+	{
+		return (*s1 - *s2); /** Difference between 2 char * */
+	}
 }
