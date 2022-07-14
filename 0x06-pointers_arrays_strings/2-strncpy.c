@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy - copies a string
- * @dest: result of copied string
- * @src: String to be copied
- * Return: Returns copied string
+ * _strcncpy - Copies a string
+ * @dest: The copied string
+ * @src: The string to be copied
+ * @n: Number of bytes to be copied
+ * Return: the copied string
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -19,4 +20,3 @@ char *_strncpy(char *dest, char *src, int n)
 
 	return (dest);
 }
-
