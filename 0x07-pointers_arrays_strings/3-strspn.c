@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * _strspn - Prints length of substring
+ * @s: Checks for pointer s
+ * @accept: Checks for pointer accept
+ * Return: Returns length of substring
+ */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	int i;
@@ -13,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[i] == accept[j]) /* compares two string lengths */
 				newlen++; /* adds 1 each time condition is true */
 		}
-		
+
 	}
 
 
