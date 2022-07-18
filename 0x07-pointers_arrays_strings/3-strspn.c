@@ -17,7 +17,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		if (s[i] != 32) /**
 				  * !IMPORTANT: This ensures the string
-				  * is broken into segments
+				  * is broken into segments. 32 is ASCII value of space
 				  */
 		{
 			for (j = 0; accept[j] != '\0'; j++) /* Loop through char accept now */
@@ -27,7 +27,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 		else
-			return (newlen);
+			return (newlen); /* Just return len if space encountered */
 
 	}
 
