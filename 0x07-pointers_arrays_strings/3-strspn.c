@@ -26,6 +26,8 @@ unsigned int _strspn(char *s, char *accept)
 					newlen++; /* adds 1 each time condition is true */
 			}
 		}
+		else
+			return (newlen);
 
 	}
 
