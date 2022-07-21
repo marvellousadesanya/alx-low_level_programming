@@ -21,6 +21,7 @@ int check_prime(int num, int p)
 /**
  * is_prime_number - Calls the check_prime function
  * @n: The inputted number
+ * Return: The check_prime function
  */
 
 int is_prime_number(int n)
