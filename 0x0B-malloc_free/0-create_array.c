@@ -15,6 +15,8 @@ char *create_array(unsigned int size, char c)
 
 	m = malloc((sizeof(char) * size)); /*allocates size of bytes */
 
+	if (m == NULL)
+		return (NULL);
 	for (i = 0; i < size; i++)
 	{
 		m[i] = c; /*Adds element of c into this pointer */
