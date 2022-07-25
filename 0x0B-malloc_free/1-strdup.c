@@ -16,22 +16,21 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	while (str[len] != '\0')
+	while (str[len]) /* Loops through the str array including the '\0' */
 	{
 		len++;
 	}
 
-	p = malloc(len * sizeof(char));
+	p = malloc(len * sizeof(char)); /* The allocated space */
 
 	if (p == NULL)
 		return (NULL);
 
 	for (i = 0; i < len; i++)
 	{
-		p[i] = str[i];
+		p[i] = str[i]; /* Copies str into p */
 	}
-	p[len] = '\0';
-	
+
 	return (p);
 }
 
