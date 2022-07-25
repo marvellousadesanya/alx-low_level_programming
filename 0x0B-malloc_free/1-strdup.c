@@ -16,12 +16,12 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	while (str[len]) /* Loops through the str array including the '\0' */
+	while (str[len] != '\0')
 	{
 		len++;
 	}
 
-	p = malloc(len * sizeof(char)); /* The allocated space */
+	p = malloc(len * sizeof(char) + 1); /* The allocated space */
 
 	if (p == NULL)
 		return (NULL);
