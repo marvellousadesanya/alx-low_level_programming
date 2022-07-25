@@ -19,16 +19,15 @@ char *_strdup(char *str)
 		len++;
 	}
 
+	if (str == NULL)
+		return (NULL);
 
-	p = malloc(sizeof(char) * len);
+	p = malloc(len * sizeof(char));
 
 	for (i = 0; str[i] != 0; i++)
 	{
 		p[i] = str[i];
 	}
-
-	if (str == NULL)
-		return (NULL);
 
 	if (p == NULL)
 		return (NULL);
