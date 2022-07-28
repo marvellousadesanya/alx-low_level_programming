@@ -27,7 +27,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	/* MEMSET: Sets the memory to 0 */
 	if (n != NULL)
 	{
-		for (i = 0; i < size; i++)
+		for (i = 0; i < (nmemb *size); i++)
 		{
 			n[i] = 0;
 		}
