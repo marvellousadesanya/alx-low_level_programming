@@ -25,7 +25,7 @@ int *array_range(int min, int max)
 
 	for (i = min; i <= max; i++)
 	{
-		arr[i] = i; /* Put every element of i into the arr */
+		arr[i] = min++; /* Put every element of i into the arr */
 	}
 
 
