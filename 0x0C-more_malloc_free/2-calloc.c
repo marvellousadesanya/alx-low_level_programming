@@ -15,6 +15,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	n = malloc(nmemb * size);
 
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+
+	if (n == NULL)
+		return (NULL);
+
 	/* MEMSET: Sets the memory to 0 */
 	if (n != NULL)
 	{
@@ -23,12 +29,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 			n[i] = 0;
 		}
 	}
-
-	if (nmemb == 0 || size == 0)
-		return (NULL);
-
-	if (n == NULL)
-		return (NULL);
 
 	return (n);
 }
