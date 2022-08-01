@@ -1,4 +1,3 @@
-/* ABS_FUNCTION */
 #ifndef ABS_FUNCTION
 #define ABS_FUNCTION
 
