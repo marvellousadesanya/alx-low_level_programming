@@ -4,6 +4,7 @@
  * array_iterator - Execute a func given as param
  * @array: Array to execute function on
  * @size: Size of array
+ * @action: Pointer to array
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
@@ -17,4 +18,4 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 			action(array[i]);
 		}
 	}
-}	
+}
