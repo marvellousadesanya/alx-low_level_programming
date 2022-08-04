@@ -1,5 +1,13 @@
 #include "3-calc.h"
 
+/**
+ * get_op_func - Function to select operator
+ *
+ * @s: char type
+ *
+ * Return: Always success
+ */
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
