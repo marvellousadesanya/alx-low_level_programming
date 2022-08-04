@@ -22,7 +22,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			if (i < (n - 1)) /* Ensures , doesn't appear at the end of displayed nos */
 				printf("%c ", *separator);
 		}
-		va_end(ap);
 		putchar('\n');
 		va_end(ap);
 	}
