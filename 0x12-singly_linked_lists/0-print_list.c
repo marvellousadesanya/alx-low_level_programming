@@ -21,8 +21,7 @@ size_t print_list(const list_t *h)
 			printf("[%u] %s", h->len, h->str);
 		}
 		printf("\n");
-		print_list(h->next); /* Recursive function */
-		count++;
+		return ((count + 1) + print_list(h->next)); /* Recursive function */
 	}
 	return (count); /* Exit function */
 }
