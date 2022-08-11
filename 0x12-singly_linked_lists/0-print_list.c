@@ -8,18 +8,17 @@
 
 size_t print_list(const list_t *h)
 {
-	int count = 1; /* Number of nodes */
+	size_t count = 0; /* Number of nodes */
 
 	if (h != NULL)
 	{
 		if (h->str == NULL)
 		{
 			printf("[0] (nil)");
-			count = 0;
 		}
 		else
 		{
-			printf("[%d] %s", h->len, h->str);
+			printf("[%u] %s", h->len, h->str);
 		}
 		printf("\n");
 		print_list(h->next); /* Recursive function */
