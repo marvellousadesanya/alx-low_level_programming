@@ -4,7 +4,7 @@
  * get_bit - Get index of bit
  * @n: Number
  * @index: The index
- * Return: -1 or bit 
+ * Return: -1 or bit
  */
 
 int get_bit(unsigned long int n, unsigned int index)
