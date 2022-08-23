@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * read_textfile - reads a text file and prints it to the standard output
+ * create_file - creates a text file and prints it to the standard output
  * @filename: name of the file to be read
- * @letters: number of letters to read and print
- * Return: the number of letters printed, or 0 if it failed
+ * @text_content: Text content
+ * Return: 1 or -1
  */
 int create_file(const char *filename, char *text_content)
 {
